@@ -1,0 +1,26 @@
+/* pages/pay/pay.wxss */
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.number, .time-calculate{
+  padding: 60rpx 0;
+  width: 90%;  
+  text-align: center;
+}
+.time-calculate button{
+  margin-top: 20rpx;
+}
+.time{
+  text-align: center;
+  flex: 1;
+  padding-top: 120rpx;
+}
+.time .time-content{
+  font-size: 160rpx;
+  text-align: center;
+}

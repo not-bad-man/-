@@ -1,0 +1,41 @@
+/* pages/land/land.wxss */
+.contain{
+  background: #f2f2f2;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.user{
+  width: 100%;
+  /* height: 40%; */
+  padding: 40rpx 0 80rpx;
+  background-color: white;
+  text-align: center;
+  /* border-bottom: 20rpx solid white; */
+}
+.user .img {
+  height: 180rpx;
+  width: 180rpx;
+  margin: 40rpx auto 40rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user .img image{
+  height: 100%;
+  width: 100%;
+}
+.wallet{
+  margin-top: 20rpx;
+  background-color: white;
+  padding: 10rpx 15rpx;
+}
+.wallet text:nth-child(2){
+  float: right;
+}
+button{
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: 40rpx;
+}

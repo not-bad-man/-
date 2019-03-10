@@ -1,0 +1,19 @@
+<!--pages/land/land.wxml-->
+ <view class='contain'> 
+  <!--条件渲染wx:if-->
+  <view class='user'>
+    <block wx:if="{{userInf.userUrl != ''}}">
+      <view class='img'>
+        <image src='{{userInf.userUrl}}'></image>
+      </view>
+    </block>
+    <text class='userName'>{{userInf.userName}}</text>
+  </view>
+  <block wx:if="{{userInf.userUrl != ''}}">
+    <view class='wallet'>
+      <text bindtap='toWallet'>我的钱包</text>
+      <text>></text>
+    </view>
+  </block>
+  <button bindtap='land' type="{{btnType}}">{{actionText}}</button>
+</view>

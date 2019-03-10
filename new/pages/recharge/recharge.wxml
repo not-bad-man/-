@@ -1,0 +1,10 @@
+<!--pages/recharge/recharge.wxml-->
+<view class='contain'>
+  <view class='title'>
+    <text>请输入充值金额</text>
+  </view>
+  <view class='input'>
+    <input auto-focus='true' bindinput='input'>{{money}}</input>
+  </view>
+  <button type='primary' bindtap='charge'>充值</button>
+</view> 

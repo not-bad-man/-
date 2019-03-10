@@ -1,0 +1,16 @@
+<view class="wrapper">
+  <view class='search' bindtap="toSearch">
+    <icon type='search' size='16' ></icon>
+    <text class='search-text'>搜索电影</text>
+  </view>
+  <view class='hot'>
+    <view class='title'>
+      <view class='title-item'>影院热映</view>
+      <text class='title-more'>更多></text>
+    </view>
+    <view class='content'>
+      <scroll-view></scroll-view>
+    </view>
+  </view>
+  <view class='will'></view>
+</view>

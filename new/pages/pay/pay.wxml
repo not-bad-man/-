@@ -1,0 +1,14 @@
+<!--pages/pay/pay.wxml-->
+<view class='container'> 
+  <view class='number'>
+    <text>当前单车编号：{{bikenumber}}</text>
+  </view>
+  <view class='time'>
+    <text>{{operat}}</text>
+    <view class='time-content'>{{hour}}:{{minute}}:{{second}}</view>
+  </view>
+  <view class='time-calculate'>
+    <button class='first' type='warn' bindtap='stop' disabled='{{isDisabled}}'>结束骑行</button>
+    <button class='second' type='primary' bindtap='backToMap'>回到地图</button>
+  </view>
+</view>

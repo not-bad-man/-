@@ -1,0 +1,66 @@
+/* pages/warn/warn.wxss */
+.contain{
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.title{
+  height: 60rpx;
+  font-size: 40rpx;
+  padding: 40rpx 0 40rpx 50rpx;
+}
+.choose-group{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40rpx;
+}
+.choose-group .grid{
+  padding: 20rpx 40rpx;
+  border: 2rpx solid skyblue;
+  margin-top: 30rpx;
+  border-radius: 6rpx;
+}
+.choose-group .grid:nth-child(1),
+.choose-group .grid:nth-child(2){
+  margin-top: 0;
+}
+.takephoto{
+  background-color: #fff;
+  padding: 40rpx;
+  /* vertical-align: middle; */
+}
+.takephoto image{
+  height: 200rpx;
+  width: 200rpx;
+  overflow: visible;
+  position: relative;
+  vertical-align: middle;
+}
+.takephoto image icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.add{
+  font-size: 25rpx;
+  display: inline-block;
+  height: 120rpx;
+  width: 120rpx;
+  text-align: center;
+  /* padding: 0 40rpx; */
+  border: 2rpx solid #ccc;
+  line-height: 120rpx;
+}
+
+.input{
+  margin-top: 40rpx;
+  background-color: #fff;
+
+}
+.input input{
+  padding: 20rpx 0 20rpx 40rpx;
+}
+.input input:nth-child(1){
+  border-bottom: 10rpx solid #f2f2f2;
+}

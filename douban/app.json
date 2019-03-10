@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/init/init",
+    "pages/search/search"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#00f",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "豆瓣电影",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}

@@ -1,0 +1,8 @@
+/* pages/logs/logs.wxss */
+.container{
+  height: 100vh;
+}
+map{
+  height: 100%;
+  width: 100%;
+}

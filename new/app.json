@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/logs/logs",
+    "pages/wallet/wallet",
+    "pages/recharge/recharge",
+    "pages/land/land",
+    "pages/warn/warn",
+
+    "pages/pay/pay",
+    "pages/password/password"
+    
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#f40",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "skyblue",
+    "navigationBarTitleText": "wechat",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": "40px"
+  },
+  "networkTimeout":{
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+
+}
